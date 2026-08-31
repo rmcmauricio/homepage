@@ -1,0 +1,21 @@
+# Captura de Tela do PortalForense
+
+Para adicionar a captura de tela do PortalForense:
+
+1. Acesse https://portalforense.pt/v5/
+2. Faça uma captura de tela da página inicial
+3. Salve a imagem como `portalforense-screenshot.png` na pasta `images/`
+
+**Dicas:**
+- Use uma ferramenta como Snipping Tool (Windows), Screenshot (Mac) ou extensão do navegador
+- Recomendado: largura mínima de 800px
+- Formato: PNG ou JPG
+- A imagem será redimensionada automaticamente para caber no card
+
+**Ferramentas online para captura de tela:**
+- https://www.screencapture.com/
+- https://screenshot.guru/
+- Extensões do Chrome/Firefox: "Full Page Screen Capture"
+
+
+

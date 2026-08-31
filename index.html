@@ -1,0 +1,927 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Primary Meta Tags -->
+    <title>Ricardo Mauricio - Software Engineer &amp; Founder | O Meu Prédio</title>
+    <meta name="title" content="Ricardo Mauricio - Software Engineer &amp; Founder | O Meu Prédio">
+    <meta name="description" content="Engenheiro de software e fundador do O Meu Prédio, SaaS de gestão de condomínios em Portugal. Mais de 25 anos de experiência em PHP, APIs, Symfony, WordPress e Drupal.">
+    <meta name="keywords" content="desenvolvedor web, software engineer, PHP, Symfony, WordPress, Drupal, O Meu Prédio, SaaS condomínios, React Native, Portugal">
+    <meta name="author" content="Ricardo Mauricio">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="Portuguese">
+    <link rel="canonical" href="https://ricardomauricio.pt">
+    <link rel="icon" href="images/logo.png" type="image/png">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ricardomauricio.pt">
+    <meta property="og:title" content="Ricardo Mauricio - Software Engineer &amp; Founder">
+    <meta property="og:description" content="Fundador do O Meu Prédio. Mais de 25 anos a criar sistemas web, APIs e produtos digitais em Portugal.">
+    <meta property="og:image" content="https://ricardomauricio.pt/images/avatar.webp">
+    <meta property="og:locale" content="pt_PT">
+    <meta property="og:site_name" content="Ricardo Mauricio">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://ricardomauricio.pt">
+    <meta property="twitter:title" content="Ricardo Mauricio - Software Engineer &amp; Founder">
+    <meta property="twitter:description" content="Fundador do O Meu Prédio. Mais de 25 anos a criar sistemas web, APIs e produtos digitais em Portugal.">
+    <meta property="twitter:image" content="https://ricardomauricio.pt/images/avatar.webp">
+
+    <!-- Schema.org structured data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Ricardo Mauricio",
+        "jobTitle": "Software Engineer & Founder of O Meu Prédio",
+        "url": "https://ricardomauricio.pt",
+        "email": "contact@ricardomauricio.pt",
+        "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "PT"
+        },
+        "sameAs": [
+            "https://www.linkedin.com/in/rmcmauricio/"
+        ],
+        "knowsAbout": [
+            "PHP",
+            "Symfony",
+            "WordPress",
+            "Drupal",
+            "Moodle",
+            "MySQL",
+            "MongoDB",
+            "JavaScript",
+            "React Native",
+            "HTML5",
+            "CSS3",
+            "Web Development",
+            "Backend Development",
+            "SaaS"
+        ],
+        "alumniOf": {
+            "@type": "EducationalOrganization",
+            "name": "Instituto Superior Técnico"
+        }
+    }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css?v=13">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="#home" class="logo">
+                    <img src="images/logo.png" alt="Ricardo Mauricio" class="logo-img">
+                </a>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home" class="nav-link active" data-i18n="nav.home">Início</a></li>
+                    <li><a href="#about" class="nav-link" data-i18n="nav.about">Sobre</a></li>
+                    <li><a href="#skills" class="nav-link" data-i18n="nav.skills">Competências</a></li>
+                    <li><a href="#education" class="nav-link" data-i18n="nav.education">Formação</a></li>
+                    <li><a href="#experience" class="nav-link" data-i18n="nav.experience">Experiência</a></li>
+                    <li><a href="#projects" class="nav-link" data-i18n="nav.projects">Projectos</a></li>
+                    <li><a href="#contact" class="nav-link" data-i18n="nav.contact">Contacto</a></li>
+                </ul>
+                <div class="nav-actions">
+                    <button class="lang-toggle" id="langToggle" aria-label="Change language" title="Change language">
+                        <span class="lang-code">PT</span>
+                    </button>
+                    <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+        </div>
+        <div class="container">
+            <div class="hero-wrapper">
+                <div class="hero-image">
+                    <div class="avatar-container">
+                        <img src="images/avatar.webp" alt="Ricardo Mauricio" class="avatar" onerror="this.style.display='none'; this.nextElementSibling.classList.add('show');">
+                        <div class="avatar-placeholder">
+                            <svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="60" cy="60" r="60" fill="currentColor" opacity="0.1"/>
+                                <circle cx="60" cy="45" r="20" fill="currentColor" opacity="0.3"/>
+                                <path d="M30 95 C30 80, 42 70, 60 70 C78 70, 90 80, 90 95" fill="currentColor" opacity="0.3"/>
+                            </svg>
+                        </div>
+                        <div class="avatar-glow"></div>
+                    </div>
+                </div>
+                <div class="hero-content">
+                    <p class="hero-kicker" data-i18n="hero.role">Engenheiro de Software</p>
+                    <h1 class="hero-title">Ricardo Mauricio</h1>
+                    <a href="https://omeupredio.com" class="hero-product" target="_blank" rel="noopener noreferrer">
+                        <span class="hero-product-icon" aria-hidden="true"><i class="fas fa-building"></i></span>
+                        <span class="hero-product-copy">
+                            <span class="hero-product-role" data-i18n="hero.productRole">Fundador</span>
+                            <span class="hero-product-name">O Meu Prédio</span>
+                            <span class="hero-product-tag" data-i18n="hero.productTag">SaaS de gestão de condomínios</span>
+                        </span>
+                        <i class="fas fa-arrow-up-right-from-square hero-product-arrow" aria-hidden="true"></i>
+                    </a>
+                    <p class="hero-description" data-i18n="hero.description">
+                        Crio produtos digitais de raiz — da arquitectura backend à experiência do utilizador. Mais de 25 anos em PHP, APIs e sistemas à medida.
+                    </p>
+                    <ul class="hero-meta">
+                        <li>
+                            <i class="fas fa-location-dot" aria-hidden="true"></i>
+                            Portugal
+                        </li>
+                        <li>
+                            <i class="fas fa-clock" aria-hidden="true"></i>
+                            <span data-i18n="hero.metaExperience">25+ anos de experiência</span>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/rmcmauricio/" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                                LinkedIn
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary" data-i18n="hero.contactBtn">Entre em contacto</a>
+                        <a href="#projects" class="btn btn-secondary" data-i18n="hero.projectsBtn">Ver Projectos</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator" aria-hidden="true">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title" data-i18n="about.title">Sobre Mim</h2>
+            <div class="about-content">
+                <div class="about-main">
+                    <div class="about-intro">
+                        <div class="about-icon">
+                            <i class="fas fa-user-tie"></i>
+                        </div>
+                        <div class="about-intro-content">
+                            <div class="about-experience">
+                                <span class="experience-number">25+</span>
+                                <span class="experience-label" data-i18n="about.experience">Anos de Experiência</span>
+                            </div>
+                            <p class="about-lead" data-i18n="about.lead">
+                                Sou engenheiro de software e fundador, com mais de 25 anos a conceber, desenvolver e manter sistemas web.
+                                Trabalho sobretudo em backend PHP, APIs e arquitectura, e lanço produtos próprios — o mais recente é o O Meu Prédio.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="about-expertise">
+                        <div class="expertise-card">
+                            <div class="expertise-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <h3 data-i18n="about.expertise1.title">Desenvolvimento Full Stack</h3>
+                            <p data-i18n="about.expertise1.text">
+                                A minha experiência abrange desde desenvolvimento de sites e sistemas de gestão de conteúdo
+                                até aplicações web complexas. Tenho conhecimento profundo em frameworks PHP como Symfony,
+                                sistemas CMS como Drupal e WordPress, e plataformas educacionais como Moodle.
+                            </p>
+                        </div>
+
+                        <div class="expertise-card">
+                            <div class="expertise-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <h3 data-i18n="about.expertise2.title">Bases de Dados</h3>
+                            <p data-i18n="about.expertise2.text">
+                                Trabalho com bases de dados relacionais (MySQL) e NoSQL (MongoDB), sempre
+                                procurando a melhor solução para cada projecto. Experiência em otimização e design de esquemas.
+                            </p>
+                        </div>
+
+                        <div class="expertise-card">
+                            <div class="expertise-icon">
+                                <i class="fas fa-rocket"></i>
+                            </div>
+                            <h3 data-i18n="about.expertise3.title">Melhoria Contínua</h3>
+                            <p data-i18n="about.expertise3.text">
+                                Estou sempre a aprender novas tecnologias e a melhorar as minhas competências para entregar
+                                projectos de alta qualidade. Foco em soluções modernas e eficientes.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="about-additional">
+                        <div class="additional-card">
+                            <div class="additional-icon">
+                                <i class="fas fa-language"></i>
+                            </div>
+                            <h3 data-i18n="about.additional.languages.title">Competências Linguísticas</h3>
+                            <p data-i18n="about.additional.languages.text">
+                                Muito bom nível de conhecimentos de Inglês – escrito e falado. Certificado First Certificate in English pela University of Cambridge.
+                            </p>
+                        </div>
+
+                        <div class="additional-card">
+                            <div class="additional-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <h3 data-i18n="about.additional.social.title">Aptidões Sociais</h3>
+                            <p data-i18n="about.additional.social.text">
+                                Espírito de equipa, ouvinte atento, flexível, dinâmico e pro-activo. Capacidade de adaptação a ambientes multiculturais.
+                            </p>
+                        </div>
+
+                        <div class="additional-card">
+                            <div class="additional-icon">
+                                <i class="fas fa-music"></i>
+                            </div>
+                            <h3 data-i18n="about.additional.organization.title">Competências de Organização</h3>
+                            <p data-i18n="about.additional.organization.text">
+                                Membro da Tuna Universitária do Instituto Superior Técnico desde 1999, onde participei na organização de vários eventos musicais. Fiz parte de duas direcções, incluindo presidência (2005/2006), e conselho fiscal (2009/2010).
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title" data-i18n="skills.title">Competências & Tecnologias</h2>
+            <div class="skills-grid">
+                <div class="skill-card skill-php">
+                    <div class="skill-icon">
+                        <i class="fab fa-php"></i>
+                    </div>
+                    <h3 class="skill-name">PHP</h3>
+                    <p class="skill-description" data-i18n="skills.php">Desenvolvimento backend robusto e escalável</p>
+                </div>
+                <div class="skill-card skill-html5">
+                    <div class="skill-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <h3 class="skill-name">HTML5</h3>
+                    <p class="skill-description" data-i18n="skills.html5">Estrutura semântica e acessível</p>
+                </div>
+                <div class="skill-card skill-javascript">
+                    <div class="skill-icon">
+                        <i class="fab fa-js"></i>
+                    </div>
+                    <h3 class="skill-name">JavaScript</h3>
+                    <p class="skill-description" data-i18n="skills.javascript">Interatividade e experiência do usuário</p>
+                </div>
+                <div class="skill-card skill-css3">
+                    <div class="skill-icon">
+                        <i class="fab fa-css3-alt"></i>
+                    </div>
+                    <h3 class="skill-name">CSS3</h3>
+                    <p class="skill-description" data-i18n="skills.css3">Design moderno e responsivo</p>
+                </div>
+                <div class="skill-card skill-drupal">
+                    <div class="skill-icon">
+                        <i class="fab fa-drupal"></i>
+                    </div>
+                    <h3 class="skill-name">Drupal</h3>
+                    <p class="skill-description" data-i18n="skills.drupal">CMS enterprise e customização</p>
+                </div>
+                <div class="skill-card skill-wordpress">
+                    <div class="skill-icon">
+                        <i class="fab fa-wordpress"></i>
+                    </div>
+                    <h3 class="skill-name">WordPress</h3>
+                    <p class="skill-description" data-i18n="skills.wordpress">Desenvolvimento de temas e plugins</p>
+                </div>
+                <div class="skill-card skill-moodle">
+                    <div class="skill-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3 class="skill-name">Moodle</h3>
+                    <p class="skill-description" data-i18n="skills.moodle">Plataforma educacional e e-learning</p>
+                </div>
+                <div class="skill-card skill-symfony">
+                    <div class="skill-icon">
+                        <i class="fab fa-symfony"></i>
+                    </div>
+                    <h3 class="skill-name">Symfony</h3>
+                    <p class="skill-description" data-i18n="skills.symfony">Framework PHP para aplicações complexas</p>
+                </div>
+                <div class="skill-card skill-mongodb">
+                    <div class="skill-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3 class="skill-name">MongoDB</h3>
+                    <p class="skill-description" data-i18n="skills.mongodb">Base de dados NoSQL</p>
+                </div>
+                <div class="skill-card skill-mysql">
+                    <div class="skill-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3 class="skill-name">MySQL</h3>
+                    <p class="skill-description" data-i18n="skills.mysql">Base de dados relacional</p>
+                </div>
+                <div class="skill-card skill-react-native">
+                    <div class="skill-icon">
+                        <i class="fab fa-react"></i>
+                    </div>
+                    <h3 class="skill-name">React Native</h3>
+                    <p class="skill-description" data-i18n="skills.reactNative">Aplicações móveis nativas</p>
+                </div>
+            </div>
+            
+            <div class="software-section">
+                <h3 class="subsection-title" data-i18n="skills.software.title">Software & Ferramentas</h3>
+                <p class="subsection-subtitle" data-i18n="skills.software.subtitle">Ferramentas de trabalho no dia a dia</p>
+                <div class="software-grid">
+                    <div class="software-category">
+                        <h4 data-i18n="skills.software.development.title">Desenvolvimento</h4>
+                        <div class="software-tags">
+                            <span class="tag">Git</span>
+                            <span class="tag">GitHub</span>
+                            <span class="tag">VS Code</span>
+                            <span class="tag">Composer</span>
+                            <span class="tag">npm</span>
+                            <span class="tag">PHPUnit</span>
+                            <span class="tag">Chrome DevTools</span>
+                            <span class="tag">Terminal</span>
+                        </div>
+                    </div>
+                    <div class="software-category">
+                        <h4 data-i18n="skills.software.apis.title">APIs &amp; dados</h4>
+                        <div class="software-tags">
+                            <span class="tag">REST</span>
+                            <span class="tag">JSON</span>
+                            <span class="tag">XML</span>
+                            <span class="tag">SOAP</span>
+                            <span class="tag">cURL</span>
+                            <span class="tag">Postman</span>
+                        </div>
+                    </div>
+                    <div class="software-category">
+                        <h4 data-i18n="skills.software.infra.title">Servidores &amp; ambiente</h4>
+                        <div class="software-tags">
+                            <span class="tag">Windows</span>
+                            <span class="tag">Linux</span>
+                            <span class="tag">Apache</span>
+                            <span class="tag">XAMPP</span>
+                            <span class="tag">MySQL</span>
+                            <span class="tag">phpMyAdmin</span>
+                            <span class="tag">SSH</span>
+                        </div>
+                    </div>
+                    <div class="software-category">
+                        <h4 data-i18n="skills.software.adobe.title">Adobe Creative Suite</h4>
+                        <div class="software-tags">
+                            <span class="tag">Illustrator</span>
+                            <span class="tag">Photoshop</span>
+                            <span class="tag">InDesign</span>
+                            <span class="tag">Acrobat</span>
+                        </div>
+                    </div>
+                    <div class="software-category">
+                        <h4 data-i18n="skills.software.office.title">Microsoft Office</h4>
+                        <div class="software-tags">
+                            <span class="tag">Word</span>
+                            <span class="tag">Excel</span>
+                            <span class="tag">PowerPoint</span>
+                            <span class="tag">Outlook</span>
+                        </div>
+                    </div>
+                    <div class="software-category">
+                        <h4 data-i18n="skills.other.title">Outras competências</h4>
+                        <div class="software-tags">
+                            <span class="tag">ASP</span>
+                            <span class="tag">ActionScript</span>
+                            <span class="tag">FileZilla</span>
+                            <span class="tag">Notepad++</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title" data-i18n="education.title">Formação Académica e Profissional</h2>
+            <p class="section-subtitle" data-i18n="education.subtitle">A minha trajetória educacional</p>
+            <div class="education-grid">
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3 class="education-degree" data-i18n="education.degree">Licenciatura em Engenharia Informática e de Computadores</h3>
+                        <p class="education-school">Instituto Superior Técnico</p>
+                        <p class="education-period">1997</p>
+                        <p class="education-description" data-i18n="education.description">
+                            Frequência em Engenharia Informática e de Computadores no Instituto Superior Técnico,
+                            uma das mais prestigiadas instituições de ensino superior de Portugal.
+                        </p>
+                    </div>
+                </div>
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fas fa-language"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3 class="education-degree" data-i18n="education.cert1.title">First Certificate in English</h3>
+                        <p class="education-school">University of Cambridge</p>
+                        <p class="education-period">1999</p>
+                        <p class="education-description" data-i18n="education.cert1.description">
+                            Certificado de Inglês pela University of Cambridge (cert. 2335388).
+                        </p>
+                    </div>
+                </div>
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3 class="education-degree" data-i18n="education.cert2.title">Concepção e Desenvolvimento de conteúdos para eLearning</h3>
+                        <p class="education-school">SAF - Sistemas Avançados de Formação S.A.</p>
+                        <p class="education-period">2004</p>
+                        <p class="education-description" data-i18n="education.cert2.description">
+                            Curso de Formação Profissional com classificação final de Muito Bom (cert. 350/04).
+                        </p>
+                    </div>
+                </div>
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3 class="education-degree" data-i18n="education.cert3.title">Formação Pedagógica Inicial de Formadores</h3>
+                        <p class="education-school">I.E.F.P.</p>
+                        <p class="education-period">2013</p>
+                        <p class="education-description" data-i18n="education.cert3.description">
+                            Curso homologado pelo I.E.F.P., para atribuição do CCP (Certificado de Competências Pedagógicas) (cert. F605932/2013).
+                        </p>
+                    </div>
+                </div>
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3 class="education-degree" data-i18n="education.cert4.title">Treino de Desenvolvimento e Liderança</h3>
+                        <p class="education-school">INEXH</p>
+                        <p class="education-period">2015</p>
+                        <p class="education-description" data-i18n="education.cert4.description">
+                            Treino de Desenvolvimento e Liderança pelo INEXH.
+                        </p>
+                    </div>
+                </div>
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fas fa-book-reader"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3 class="education-degree" data-i18n="education.cert5.title">Formação de Administradores Moodle</h3>
+                        <p class="education-school">ed-rom</p>
+                        <p class="education-period">2018</p>
+                        <p class="education-description" data-i18n="education.cert5.description">
+                            Curso de Formação Profissional de Formação de Administradores Moodle pela ed-rom (cert. 8/2018).
+                        </p>
+                    </div>
+                </div>
+                <div class="education-card education-extra">
+                    <div class="education-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3 class="education-degree" data-i18n="education.cert6.title">HTML 5 e CSS3</h3>
+                        <p class="education-school">B7Web</p>
+                        <p class="education-period">2020</p>
+                        <p class="education-description" data-i18n="education.cert6.description">
+                            Curso de HTML 5 e CSS3 pela B7Web (cert. 8821193).
+                        </p>
+                    </div>
+                </div>
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fab fa-github"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3 class="education-degree" data-i18n="education.cert7.title">Git/GitHub</h3>
+                        <p class="education-school">B7Web</p>
+                        <p class="education-period">2020</p>
+                        <p class="education-description" data-i18n="education.cert7.description">
+                            Curso de Git/GitHub pela B7Web (cert. 2687518).
+                        </p>
+                    </div>
+                </div>
+                <div class="education-card education-extra">
+                    <div class="education-icon">
+                        <i class="fas fa-project-diagram"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3 class="education-degree" data-i18n="education.cert8.title">Fundamentos do Scrum</h3>
+                        <p class="education-school">LinkedIn</p>
+                        <p class="education-period">2021</p>
+                        <p class="education-description" data-i18n="education.cert8.description">
+                            Curso de Fundamentos do Scrum pela LinkedIn.
+                        </p>
+                    </div>
+                </div>
+                <div class="education-card education-extra">
+                    <div class="education-icon">
+                        <i class="fas fa-tasks"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3 class="education-degree" data-i18n="education.cert9.title">Fundamentos de Gestão Ágil</h3>
+                        <p class="education-school">LinkedIn</p>
+                        <p class="education-period">2021</p>
+                        <p class="education-description" data-i18n="education.cert9.description">
+                            Curso de Fundamentos de Gestão Ágil pela LinkedIn.
+                        </p>
+                    </div>
+                </div>
+                <div class="education-card education-extra">
+                    <div class="education-icon">
+                        <i class="fab fa-git-alt"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3 class="education-degree" data-i18n="education.cert10.title">Introdução ao Git e ao GitHub</h3>
+                        <p class="education-school">DIO</p>
+                        <p class="education-period">2021</p>
+                        <p class="education-description" data-i18n="education.cert10.description">
+                            Curso de Introdução ao Git e ao GitHub pela DIO (cert. B5DCB4EF).
+                        </p>
+                    </div>
+                </div>
+                <div class="education-card education-extra">
+                    <div class="education-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3 class="education-degree" data-i18n="education.cert11.title">Desenvolvimento Ágil de Software</h3>
+                        <p class="education-school">LinkedIn</p>
+                        <p class="education-period">2021</p>
+                        <p class="education-description" data-i18n="education.cert11.description">
+                            Curso de Desenvolvimento Ágil de Software pela LinkedIn.
+                        </p>
+                    </div>
+                </div>
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fab fa-drupal"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3 class="education-degree" data-i18n="education.cert12.title">Drupal 8 Beginner to Advanced</h3>
+                        <p class="education-school">Udemy</p>
+                        <p class="education-period">2021</p>
+                        <p class="education-description" data-i18n="education.cert12.description">
+                            Drupal Tutorial: Drupal 8 Beginner to Advanced in 8 PROJECTS pela Udemy (cert. UC-6b3c6a93-dcdd-42b3-9a25-4013599feca3).
+                        </p>
+                    </div>
+                </div>
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fas fa-vial"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3 class="education-degree" data-i18n="education.cert13.title">PHP Unit Testing with PHPUnit</h3>
+                        <p class="education-school">Udemy</p>
+                        <p class="education-period">2024</p>
+                        <p class="education-description" data-i18n="education.cert13.description">
+                            Curso de PHP Unit Testing with PHPUnit pela Udemy (cert. UC-7883147c-cfcc-4403-a1d0-63ac64a354f7).
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="education-toggle-wrap">
+                <button type="button" class="btn btn-secondary" id="educationToggle" data-i18n="education.showMore" aria-expanded="false">Ver mais formação</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="projects">
+        <div class="container">
+            <h2 class="section-title" data-i18n="experience.title">Experiência Profissional</h2>
+            <p class="section-subtitle" data-i18n="experience.subtitle">Percurso em empresas e instituições</p>
+            <div class="projects-grid">
+                <div class="project-card project-experience">
+                    <div class="project-image">
+                        <img src="images/nrthree-screenshot.png" alt="NR3 IT Limited Screenshot" class="project-screenshot" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="project-placeholder" style="display: none;">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title" data-i18n="projects.nr3.title">Engenheiro de Software / Back End Developer</h3>
+                        <p class="project-company">NR3 IT Limited</p>
+                        <p class="project-period" data-start="2021-09" data-i18n="projects.nr3.period">Set 2021 - Presente</p>
+                        <p class="project-description" data-i18n="projects.nr3.description">
+                            Desenvolvimento de software e soluções backend para projectos internacionais.
+                            Especialização em programação backend com PHP, criando aplicações robustas, escaláveis e de alta performance.
+                            Desenvolvimento de APIs, integrações de sistemas e arquitectura de software empresarial.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag" data-i18n="tags.backend">Backend</span>
+                            <span class="tag">PHP</span>
+                            <span class="tag">APIs</span>
+                            <span class="tag" data-i18n="tags.architecture">Arquitectura</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card project-experience">
+                    <div class="project-image">
+                        <img src="images/ordemdosadvogados.png" alt="Ordem dos Advogados Screenshot" class="project-screenshot" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="project-placeholder" style="display: none;">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title" data-i18n="projects.oa.title">Senior Information Technology Technician</h3>
+                        <p class="project-company">Conselho Regional de Lisboa da Ordem dos Advogados</p>
+                        <p class="project-period" data-i18n="projects.oa.period">Jun 2001 - Set 2021 · 20 anos e 4 meses</p>
+                        <p class="project-description" data-i18n="projects.oa.description">
+                            Mais de 20 anos de experiência como técnico sénior de tecnologias de informação,
+                            inicialmente como freelancer (2001-2005) e posteriormente em regime full-time (2005-2021).
+                            Responsável por suporte técnico, desenvolvimento web, manutenção de sistemas e
+                            implementação de soluções tecnológicas para uma das mais importantes instituições jurídicas de Portugal.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag" data-i18n="tags.techSupport">Suporte Técnico</span>
+                            <span class="tag">CSS3</span>
+                            <span class="tag" data-i18n="tags.webDev">Desenvolvimento Web</span>
+                            <span class="tag" data-i18n="tags.systems">Sistemas</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title" data-i18n="projects.heading">Projectos</h2>
+            <p class="section-subtitle" data-i18n="projects.subtitle">Produtos e plataformas que concebi e desenvolvi</p>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/omeupredio-screenshot.png" alt="O Meu Prédio Screenshot" class="project-screenshot" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="project-placeholder" style="display: none;">
+                            <i class="fas fa-building"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">O Meu Prédio</h3>
+                        <p class="project-period" data-start="2025-06" data-i18n="projects.omeupredio.period">Jun 2025 - Presente</p>
+                        <p class="project-description" data-i18n="projects.omeupredio.description">
+                            Como criador e único desenvolvedor, concebi e construí o O Meu Prédio — um SaaS que reúne quotas, recibos, assembleias, comunicação, documentos, ocorrências e reservas num único sistema.
+                            Inclui app móvel para condóminos e está em desenvolvimento activo, com novas funcionalidades a serem lançadas continuamente.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">PHP</span>
+                            <span class="tag">MySQL</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">React Native</span>
+                        </div>
+                        <a href="https://omeupredio.com/" target="_blank" rel="noopener noreferrer" class="project-link" data-i18n="projects.viewProject">Ver Projecto <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/sync2stage-screenshot.png" alt="Sync2Stage Screenshot" class="project-screenshot" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="project-placeholder" style="display: none;">
+                            <i class="fas fa-music"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Sync2Stage</h3>
+                        <p class="project-description" data-i18n="projects.sync2stage.description">
+                            Plataforma revolucionária que transforma qualquer concerto numa experiência interativa única.
+                            Como criador e único desenvolvedor, concebi e desenvolvi esta solução que sincroniza letras
+                            em tempo real entre artistas e público, permitindo que todos cantem juntos durante espetáculos ao vivo.
+                            O projecto encontra-se actualmente em desenvolvimento activo, com melhorias e novas funcionalidades a serem implementadas continuamente.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">PHP</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">MySQL</span>
+                            <span class="tag">WebSockets</span>
+                        </div>
+                        <a href="https://sync2stage.com/" target="_blank" rel="noopener noreferrer" class="project-link" data-i18n="projects.viewProject">Ver Projecto <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/portalforense-screenshot.png" alt="PortalForense Screenshot" class="project-screenshot" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="project-placeholder" style="display: none;">
+                            <i class="fas fa-gavel"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">PortalForense</h3>
+                        <p class="project-description" data-i18n="projects.portalforense.description">
+                            Plataforma web completa para profissionais do Direito com mais de 15 anos de existência.
+                            Desenvolvi todas as 5 versões do sítio, incluindo ferramentas de cálculo, minutas,
+                            gestão de conteúdos e sistema de membros com diferentes planos de acesso.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">PHP</span>
+                            <span class="tag">MySQL</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">CSS</span>
+                        </div>
+                        <a href="https://portalforense.pt/v5/" target="_blank" rel="noopener noreferrer" class="project-link" data-i18n="projects.viewProject">Ver Projecto <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/lisboameninaemoca-screenschot.png" alt="Lisboa Menina e Moça Screenshot" class="project-screenshot" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="project-placeholder" style="display: none;">
+                            <i class="fas fa-guitar"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Lisboa Menina e Moça</h3>
+                        <p class="project-description" data-i18n="projects.lisboameninaemoca.description">
+                            Web developer responsável pelo desenvolvimento e manutenção do sítio WordPress da casa de fado tradicional Lisboa Menina e Moça, localizada junto à Sé de Lisboa.
+                            Desenvolvimento completo incluindo design moderno, sistema de reservas, galeria de fotos e apresentação da história e músicos desta experiência única de fado ao vivo no coração de Alfama.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">WordPress</span>
+                            <span class="tag">PHP</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                        <a href="https://lisboameninaemoca.com/wp/" target="_blank" rel="noopener noreferrer" class="project-link" data-i18n="projects.viewProject">Ver Projecto <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Previous Projects Section -->
+            <div class="previous-projects-section">
+                <h3 class="subsection-title" data-i18n="projects.previous.title">Outros Projectos</h3>
+                <p class="subsection-subtitle" data-i18n="projects.previous.subtitle">Projectos desenvolvidos anteriormente</p>
+                <div class="projects-grid previous-projects-grid">
+                    <div class="project-card project-archived">
+                        <div class="project-content">
+                            <h3 class="project-title" data-i18n="projects.previous.rsa.title">Webmaster</h3>
+                            <p class="project-company">RSA Advogados</p>
+                            <p class="project-period" data-i18n="projects.previous.rsa.period">2007 - 2012</p>
+                            <p class="project-description" data-i18n="projects.previous.rsa.description">
+                                Desenvolvimento e manutenção do site institucional do escritório RSA Advogados.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">PHP</span>
+                                <span class="tag">HTML</span>
+                                <span class="tag">CSS</span>
+                                <span class="tag">JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card project-archived">
+                        <div class="project-content">
+                            <h3 class="project-title" data-i18n="projects.previous.apgs.title">Webmaster</h3>
+                            <p class="project-company">APGS</p>
+                            <p class="project-period" data-i18n="projects.previous.apgs.period">2006 - 2009</p>
+                            <p class="project-description" data-i18n="projects.previous.apgs.description">
+                                Desenvolvimento e manutenção do site da APGS.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">PHP</span>
+                                <span class="tag">HTML</span>
+                                <span class="tag">CSS</span>
+                                <span class="tag">JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card project-archived">
+                        <div class="project-content">
+                            <h3 class="project-title" data-i18n="projects.previous.quintasaojoao.title">Web Developer</h3>
+                            <p class="project-company">Quinta São João</p>
+                            <p class="project-period" data-i18n="projects.previous.quintasaojoao.period">-</p>
+                            <p class="project-description" data-i18n="projects.previous.quintasaojoao.description">
+                                Desenvolvimento do site da Quinta São João.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">PHP</span>
+                                <span class="tag">HTML</span>
+                                <span class="tag">CSS</span>
+                                <span class="tag">JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card project-archived">
+                        <div class="project-content">
+                            <h3 class="project-title" data-i18n="projects.previous.sitiodoadvogado.title">Webmaster</h3>
+                            <p class="project-company">Sítio do Advogado</p>
+                            <p class="project-period" data-i18n="projects.previous.sitiodoadvogado.period">-</p>
+                            <p class="project-description" data-i18n="projects.previous.sitiodoadvogado.description">
+                                Desenvolvimento e manutenção do site Sítio do Advogado.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">PHP</span>
+                                <span class="tag">HTML</span>
+                                <span class="tag">CSS</span>
+                                <span class="tag">JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card project-archived">
+                        <div class="project-content">
+                            <h3 class="project-title" data-i18n="projects.previous.alvesaguas.title">Webmaster</h3>
+                            <p class="project-company">Alves & Águas Lda.</p>
+                            <p class="project-period" data-i18n="projects.previous.alvesaguas.period">-</p>
+                            <p class="project-description" data-i18n="projects.previous.alvesaguas.description">
+                                Desenvolvimento e manutenção do site da empresa Alves & Águas Lda.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">PHP</span>
+                                <span class="tag">HTML</span>
+                                <span class="tag">CSS</span>
+                                <span class="tag">JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title" data-i18n="contact.title">Entre em Contacto</h2>
+            <p class="section-subtitle" data-i18n="contact.subtitle">Vamos conversar sobre o seu próximo projecto</p>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3 data-i18n="contact.email">Email</h3>
+                        <a href="mailto:contact@ricardomauricio.pt" class="info-link">contact@ricardomauricio.pt</a>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <h3 data-i18n="contact.linkedin">LinkedIn</h3>
+                        <a href="https://www.linkedin.com/in/rmcmauricio/" target="_blank" rel="noopener noreferrer" class="info-link">linkedin.com/in/rmcmauricio</a>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h3 data-i18n="contact.location">Localização</h3>
+                        <p>Portugal</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2026 Ricardo Mauricio. <span data-i18n="footer.rights">Todos os direitos reservados.</span></p>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/rmcmauricio/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/language.js?v=7"></script>
+    <script src="js/main.js?v=3"></script>
+</body>
+</html>
+
