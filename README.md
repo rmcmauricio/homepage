@@ -1,6 +1,6 @@
-# Homepage - Ricardo Mauricio
+# Homepage - Ricardo Maurício
 
-Homepage moderna e responsiva para Ricardo Mauricio, desenvolvedor web especializado em PHP, HTML, JavaScript, CSS e diversas tecnologias web.
+Homepage moderna e responsiva para Ricardo Maurício, desenvolvedor web especializado em PHP, HTML, JavaScript, CSS e diversas tecnologias web.
 
 **Website:** [ricardomauricio.pt](https://ricardomauricio.pt)
 
@@ -107,11 +107,11 @@ O formulário de contato atualmente simula o envio. Para integrar com um backend
 
 ## 📝 Licença
 
-© 2024 Ricardo Mauricio. Todos os direitos reservados.
+© 2024 Ricardo Maurício. Todos os direitos reservados.
 
 ## 👨‍💻 Autor
 
-**Ricardo Mauricio**
+**Ricardo Maurício**
 - Website: ricardomauricio.pt
 - Email: contato@ricardomauricio.pt
 
