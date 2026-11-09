@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://ricardomauricio.pt</loc>
+    <lastmod>2026-11-09</lastmod>
+    <image:image>
+      <image:loc>https://ricardomauricio.pt/images/avatar.webp</image:loc>
+      <image:title>Ricardo Maurício</image:title>
+      <image:caption>Ricardo Maurício, engenheiro de software e fundador do O Meu Prédio</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ricardomauricio.pt/images/omeupredio-screenshot.png</image:loc>
+      <image:title>O Meu Prédio</image:title>
+      <image:caption>O Meu Prédio, software de gestão de condomínios</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ricardomauricio.pt/images/sync2stage-screenshot.png</image:loc>
+      <image:title>Sync2Stage</image:title>
+      <image:caption>Sync2Stage, plataforma para letras em concertos</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ricardomauricio.pt/images/portalforense-screenshot.png</image:loc>
+      <image:title>PortalForense</image:title>
+      <image:caption>PortalForense, plataforma para profissionais do Direito</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ricardomauricio.pt/images/lisboameninaemoca-screenschot.png</image:loc>
+      <image:title>Lisboa Menina e Moça</image:title>
+      <image:caption>Sítio da casa de fado Lisboa Menina e Moça</image:caption>
+    </image:image>
+  </url>
+</urlset>

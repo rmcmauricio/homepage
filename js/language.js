@@ -4,6 +4,19 @@
 
 const translations = {
     pt: {
+        seo: {
+            title: "Ricardo Maurício | Engenheiro de Software | O Meu Prédio",
+            description: "Ricardo Maurício, engenheiro de software e fundador do O Meu Prédio. SaaS de gestão de condomínios e mais de 25 anos em PHP, APIs e Symfony."
+        },
+        images: {
+            portrait: "Ricardo Maurício, engenheiro de software",
+            nr3: "Trabalho de engenharia de software na NR3 IT Limited",
+            oa: "Conselho Regional de Lisboa da Ordem dos Advogados",
+            omeupredio: "O Meu Prédio, software de gestão de condomínios",
+            sync2stage: "Sync2Stage, plataforma para letras em concertos",
+            portalforense: "PortalForense, plataforma para profissionais do Direito",
+            lisboa: "Sítio da casa de fado Lisboa Menina e Moça"
+        },
         nav: {
             home: "Início",
             about: "Sobre",
@@ -256,6 +269,19 @@ const translations = {
         }
     },
     en: {
+        seo: {
+            title: "Ricardo Maurício | Software Engineer | O Meu Prédio",
+            description: "Ricardo Maurício, software engineer and founder of O Meu Prédio. Condominium management SaaS and 25+ years with PHP, APIs and Symfony."
+        },
+        images: {
+            portrait: "Ricardo Maurício, software engineer",
+            nr3: "Software engineering work at NR3 IT Limited",
+            oa: "Lisbon Regional Council of the Portuguese Bar Association",
+            omeupredio: "O Meu Prédio, condominium management software",
+            sync2stage: "Sync2Stage, live concert lyrics platform",
+            portalforense: "PortalForense, platform for legal professionals",
+            lisboa: "Website of the fado house Lisboa Menina e Moça"
+        },
         nav: {
             home: "Home",
             about: "About",
@@ -532,6 +558,41 @@ function getTranslation(key, lang = currentLang) {
 function translatePage(lang = currentLang) {
     currentLang = lang;
     document.documentElement.lang = lang === 'pt' ? 'pt-PT' : 'en';
+
+    const title = getTranslation('seo.title', lang);
+    const description = getTranslation('seo.description', lang);
+    if (title) {
+        document.title = title;
+    }
+    if (description) {
+        const descriptionMeta = document.querySelector('meta[name="description"]');
+        if (descriptionMeta) {
+            descriptionMeta.setAttribute('content', description);
+        }
+        ['meta[property="og:title"]', 'meta[name="twitter:title"]'].forEach(selector => {
+            const el = document.querySelector(selector);
+            if (el && title) {
+                el.setAttribute('content', title);
+            }
+        });
+        ['meta[property="og:description"]', 'meta[name="twitter:description"]'].forEach(selector => {
+            const el = document.querySelector(selector);
+            if (el) {
+                el.setAttribute('content', description);
+            }
+        });
+        const locale = document.querySelector('meta[property="og:locale"]');
+        if (locale) {
+            locale.setAttribute('content', lang === 'pt' ? 'pt_PT' : 'en_US');
+        }
+    }
+
+    document.querySelectorAll('[data-i18n-alt]').forEach(element => {
+        const translation = getTranslation(element.getAttribute('data-i18n-alt'), lang);
+        if (translation) {
+            element.setAttribute('alt', translation);
+        }
+    });
     
     // Update all elements with data-i18n attribute
     document.querySelectorAll('[data-i18n]').forEach(element => {
